@@ -1,10 +1,19 @@
-# Default ignored files
-/shelf/
-/.idea/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Zeppelin ignored files
-/ZeppelinRemoteNotebooks/
+/*.iml
+/*.ipr
+/*.iws
+/.classpath
+/.factorypath
+/.idea
+/.project
+/.settings
+/nb*
+/release.properties
+/target
+
+# These are needed if running in IDE without properties set
+/ibderby
+derby.log
+/bin/
+.mvn/wrapper/maven-wrapper.jar
+.sts4-cache/
+*.releaseBackup
